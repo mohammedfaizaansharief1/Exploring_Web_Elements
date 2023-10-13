@@ -36,12 +36,61 @@
     <section id="formanduserinteractionsection"> 
         <form action="feedback.js">
             <h2>Feedback!</h2>
-            <label for="fullname"></label>
+            <label for="fullname">FullName:</label>
             <input type="text" name="fullname" id="fullname" placeholder="Enter Your FullName"><br>
+            <label for="">Do you own any laptops?</label><br>
+            <input type="radio" name="Checkbox" id="Checkbox">Yes
+            <input type="radio" name="Checkbox" id="Checkbox">No <br>
+            <label for="Checkbox">What type of Laptops are you intrested in?</label><br>
+            <input type="checkbox">Tablet <br>
+            <input type="checkbox">2-in-1 <br>
+            <input type="checkbox">Standard laptop <br>
+            <label for="message">Enter Review:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your review here!"></textarea><br>
             <button type="submit">
                 Submit
             </button>
         </form>
+    </section><hr>
+    <section id="tableanddatarepresentation">
+        <table>
+            <caption>Comparision between laptops based on the use.</caption>
+            <thead>
+                <tr>
+                    <th>Laptops</th>
+                    <th>Creativity</th>
+                    <th>Everyday</th>
+                    <th>Gaming</th>
+                    <th>Stream & Play</th>
+                    <th>High-tech Style</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>HP Envy x360 13.3</td>
+                    <td>&#x2705;</td>
+                    <!-- <td>&#x274C;</td> -->
+                    <td>&#x274E;</td>
+                </tr>
+                <tr>
+                    <td>HP Envy x360 15.6 (Intel)</td>
+                    <td>&#x2705;</td>
+                    <!-- <td>&#x274C;</td> -->
+                    <td>&#x274E;</td>
+                </tr>
+                <tr>
+                    <td>HP Pavilion Plus 14 Laptop</td>
+                    <td>&#x2705;</td>
+                    <td>&#x2705;</td>
+                    <td>&#x2705;</td>
+                </tr>
+                <tr>
+                    <td>HP Pavilion x360 14</td>
+                    <td>&#x2705;</td>
+                    <td>&#x2705;</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 </body>
 </html>
